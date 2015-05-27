@@ -1,0 +1,8 @@
+std_msgs/Header header
+int64 num
+geometry_msgs/Pose pose
+
+
+int32 OBJECT_CUP = 1
+int32 OBJECT_BATTERY = 2
+int32 OBJECT_BASE = 3
