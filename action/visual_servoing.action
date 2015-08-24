@@ -1,6 +1,10 @@
 # Define the goal
 duration timeout
-string object
+int32 object
+
+int32 OBJECT_CUP = 1
+int32 OBJECT_BATTERY = 2
+int32 OBJECT_BASE = 3
 ---
 # Define the result
 int32 error_code
