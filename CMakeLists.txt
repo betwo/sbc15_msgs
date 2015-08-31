@@ -7,11 +7,24 @@ project(sbc15_msgs)
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   std_msgs
+  actionlib_msgs
   message_generation
 )
 add_message_files(
   FILES
     Object.msg
+    ObjectsCenter.msg
+)
+add_service_files(
+  FILES
+    GetObjects.srv
+)
+add_action_files(
+  DIRECTORY
+    action
+  FILES
+    CupGripp.action
+    visual_servoing.action
 )
 add_service_files(
   FILES
@@ -24,6 +37,7 @@ generate_messages(
   DEPENDENCIES
     geometry_msgs
     std_msgs
+    actionlib_msgs
 )
 
 ###################################

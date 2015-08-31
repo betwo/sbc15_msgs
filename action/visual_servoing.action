@@ -1,0 +1,26 @@
+# Define the goal
+duration timeout
+int32 object
+
+int32 OBJECT_CUP = 1
+int32 OBJECT_BATTERY = 2
+int32 OBJECT_BASE = 3
+---
+# Define the result
+int32 error_code
+#Definition of the Error Codes
+int32 SUCCESS = 1
+int32 TIME_OUT = -1
+int32 NO_IK_SOLUTION = -2
+int32 TARGET_OUT_OF_RANGE = -3
+int32 SERVO_CONTROLL_FAILD = -4
+int32 SELF_COLLISION = -5
+---
+# Define a feedback message
+int32 state
+float32 error_x
+float32 error_y
+float32 error_z
+float32 delta_x
+float32 delta_y
+float32 delta_z
