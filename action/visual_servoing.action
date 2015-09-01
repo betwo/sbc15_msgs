@@ -1,6 +1,8 @@
 # Define the goal
 duration timeout
 int32 object
+float32 theta
+float32 phi
 
 int32 OBJECT_CUP = 1
 int32 OBJECT_BATTERY = 2
@@ -15,6 +17,7 @@ int32 NO_IK_SOLUTION = -2
 int32 TARGET_OUT_OF_RANGE = -3
 int32 SERVO_CONTROLL_FAILD = -4
 int32 SELF_COLLISION = -5
+int32 NO_OBJECT_VISIBLE = -6
 ---
 # Define a feedback message
 int32 state
