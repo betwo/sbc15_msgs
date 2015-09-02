@@ -7,6 +7,7 @@ project(sbc15_msgs)
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   std_msgs
+  control_msgs
   actionlib_msgs
   message_generation
 )
@@ -29,6 +30,7 @@ add_action_files(
 add_service_files(
   FILES
   GetObjects.srv
+  PreplannedTrajectories.srv
 )
 
 
@@ -36,6 +38,7 @@ add_service_files(
 generate_messages(
   DEPENDENCIES
     geometry_msgs
+    control_msgs
     std_msgs
     actionlib_msgs
 )
@@ -53,5 +56,6 @@ catkin_package(
    CATKIN_DEPENDS
      message_runtime
      geometry_msgs
+     control_msgs
      std_msgs
 )
