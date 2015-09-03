@@ -1,5 +1,5 @@
 #request
-int32 trajecory
+int32 trajectory
 int32 PLACE_CUP = 0
 int32 PICK_CUP = 1
 int32 PLACE_BOX = 2
