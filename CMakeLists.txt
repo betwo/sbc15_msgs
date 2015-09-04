@@ -24,6 +24,7 @@ add_action_files(
   DIRECTORY
     action
   FILES
+    PreGrab.action
     CupGripp.action
     visual_servoing.action
 )
