@@ -9,4 +9,3 @@ int32 PLACE_ARM_FROM_CUP = 5
 int32 PLACE_ARM_FROM_BOX = 6
 ---
 #response
-int32 result
