@@ -19,6 +19,8 @@ add_message_files(
 add_service_files(
   FILES
     GetObjects.srv
+    PreplannedTrajectories.srv
+    GripperServices.srv
 )
 add_action_files(
   DIRECTORY
@@ -27,11 +29,6 @@ add_action_files(
     PreGrab.action
     CupGripp.action
     visual_servoing.action
-)
-add_service_files(
-  FILES
-  GetObjects.srv
-  PreplannedTrajectories.srv
 )
 
 
