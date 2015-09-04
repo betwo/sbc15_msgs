@@ -1,0 +1,12 @@
+#request
+int32 trajectory
+int32 PLACE_CUP = 0
+int32 PICK_CUP = 1
+int32 PLACE_BOX = 2
+int32 PICK_BATTERY = 3
+int32 PLACE_ARM_FROM_FRONT = 4
+int32 PLACE_ARM_FROM_CUP = 5
+int32 PLACE_ARM_FROM_BOX = 6
+---
+#response
+control_msgs/FollowJointTrajectoryResult result
