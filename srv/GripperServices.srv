@@ -3,6 +3,8 @@ int32 action
 int32 CLOSE_GRIPPER = 0
 int32 OPEN_GRIPPER = 1
 int32 RESET_GRIPPER = 2
+int32 GRAB = 3
+int32 SEMI_CLOSE =4
 ---
 #response
 bool success
