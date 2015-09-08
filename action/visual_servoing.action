@@ -10,7 +10,7 @@ int32 OBJECT_BASE = 3
 ---
 # Define the result
 int32 error_code
-float32 distanze #distanze to object
+float32 distance #distanze to object
 #Definition of the Error Codes
 int32 SUCCESS = 1
 int32 TIME_OUT = -1
