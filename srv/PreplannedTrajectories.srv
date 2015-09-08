@@ -11,3 +11,4 @@ int32 START_ARM = 7
 int32 PRE_POSITION = 8
 ---
 #response
+control_msgs/FollowJointTrajectoryResult result
