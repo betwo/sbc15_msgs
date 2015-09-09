@@ -12,3 +12,4 @@ int32 PRE_POSITION = 8
 int32 BACK_UP = 9
 ---
 #response
+control_msgs/FollowJointTrajectoryResult result
