@@ -26,8 +26,8 @@ add_action_files(
   DIRECTORY
     action
   FILES
-    PreGrab.action
-    CupGripp.action
+    MoveManipulatorEeffFrame.action
+    MoveManipulatorGripperFrame.action
     visual_servoing.action
 )
 
