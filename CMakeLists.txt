@@ -15,6 +15,8 @@ add_message_files(
   FILES
     Object.msg
     ObjectsCenter.msg
+    Segment.msg
+    Segments.msg
 )
 add_service_files(
   FILES
