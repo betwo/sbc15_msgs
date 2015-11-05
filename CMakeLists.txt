@@ -15,6 +15,8 @@ add_message_files(
   FILES
     Object.msg
     ObjectsCenter.msg
+    Segment.msg
+    Segments.msg
 )
 add_service_files(
   FILES
@@ -29,6 +31,7 @@ add_action_files(
     MoveManipulatorEeffFrame.action
     MoveManipulatorGripperFrame.action
     visual_servoing.action
+    Play.action
 )
 
 
