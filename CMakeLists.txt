@@ -31,6 +31,7 @@ add_action_files(
     MoveManipulatorEeffFrame.action
     MoveManipulatorGripperFrame.action
     visual_servoing.action
+    Play.action
 )
 
 
