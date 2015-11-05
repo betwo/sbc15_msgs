@@ -28,8 +28,8 @@ add_action_files(
   DIRECTORY
     action
   FILES
-    MoveManipulatorEeffFrame.action
-    MoveManipulatorGripperFrame.action
+    MoveManipulatorHightOffset.action
+    MoveManipulator.action
     visual_servoing.action
     Play.action
 )
