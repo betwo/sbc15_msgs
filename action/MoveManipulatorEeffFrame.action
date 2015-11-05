@@ -2,6 +2,7 @@
 float64[] position # x, y, z
 float64[] offset # offset to endeffektor position, offset in height (in m)
 float64 pitch #(in radian)
+float64 yaw #(in radian)
 
 ---
 #result definition
