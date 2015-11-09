@@ -8,7 +8,7 @@ float64 yaw #(in radian)
 #result definition
 int32 error_code
 #deffinition of Error Codes
-int32 SUCCES = 1
+int32 SUCCESS = 1
 int32 PLANNING_FAILED = -1
 int32 PREEMPTED = -7
 int32 GOAL_IN_COLLISION = -12
