@@ -1,5 +1,6 @@
 #request
 int32 action
+float32 effort
 int32 CLOSE_GRIPPER = 0
 int32 OPEN_GRIPPER = 1
 int32 RESET_GRIPPER = 2
